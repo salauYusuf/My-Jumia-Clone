@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/cart.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/jumia_star-removebg-preview.png"
+      type="image/x-icon"
+    />
+    <title>Cart</title>
+  </head>
+  <body>
+<header>
+  <div class="top">
+        <div class="top-left">
+          <img src="./assets/jumia_star-removebg-preview.png" alt="" />
+          <a href="#">Sell on Jumia</a>
+        </div>
+        <div class="top-right">
+          <img src="./assets/jumbg.png" class="jumia" alt="jumia" />
+          <img src="./assets/adpay-removebg-preview.png" class="pay" alt="" />
+          <img
+            src="./assets/addeliver-removebg-preview.png"
+            class="deliver"
+            alt=""
+          />
+        </div>
+      </div>
+</header>
+
+<!-- nav -->
+
+<div class="nav-bg">
+      <div class="nav-box">
+        <div class="navboot">
+          <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container-fluid p-0">
+              <a class="navbar-brand" href="#">
+                <img src="./assets/jum-removebg-preview.png" alt="logo" />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex mx-3 flex-grow-1" role="search">
+                  <div class="input-group">
+                    <span class="input-group-text bg-white border-end-0">
+                      <img src="./assets/searchlogo.svg" alt="search" />
+                    </span>
+                    <input
+                      class="form-control border-start-0"
+                      type="search"
+                      placeholder="search products, brands and categories"
+                      aria-label="Search"
+                    />
+                  </div>
+                  <button class="btn search-btn ms-2" type="submit">
+                    search
+                  </button>
+                </form>
+
+                <ul class="navbar-nav mb-0 ms-2">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                    >
+                      <img src="./assets/person.svg" class="nav-img" alt="" /> Hi, Salaudeen
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="./account.html"
+                          ><img src="./assets/person.svg" alt="" />My Account</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="./order.html"
+                          ><img src="./assets/inventory.svg" alt="" />Orders</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><img src="./assets/mail.svg" alt="" />Inbox</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><img src="./assets/favorite.svg" alt="" />Wishlist</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><img
+                            src="./assets/confirmation.svg"
+                            alt=""
+                          />voucher</a
+                        >
+                      </li>
+                      <hr class="line my-1" />
+                      <li class="text-center">
+                        <a class="dropdown-item logout-btn" href="./index.html">Logout</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                    >
+                      <img src="./assets/store.svg" class="nav-img" alt="" />
+                      Help
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">Help Center</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Place an order</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Payment options</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Track an order</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Help Center</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Cancel an order</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Returns & Refunds</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Coookie Preferences</a
+                        >
+                      </li>
+                      <hr class="line my-1">
+                      <li>
+                        <a class="dropdown-item live-chat" href="#">
+                          <img
+                            src="./assets/sms.svg"
+                            alt=""
+                          />Live Chat</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item whatsapp" href="#">
+                          <img
+                            src="./assets/whatsapp-color.svg"
+                            alt=""
+                          />
+                          WhatsApp</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <img src="./assets/home-cart.svg" class="nav-img" alt="" />
+                      cart
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="cart">
+      <img src="./assets/cart-removebg-preview.png" alt="cart" />
+      <h2>Your cart is empty!</h2>
+      <p>Browse our categories and discover our best deals!</p>
+      <a href="./log in.html">
+        <button>Start Shopping</button>
+      </a>
+    </div>
+    <div class="recent">
+      <div class="recent-header">
+        <h2>Recently Viewed</h2>
+        <a href="#">See All ›</a>
+      </div>
+      <div class="product-card">
+        <span class="discount">- 46%</span>
+        <img src="./assets/jumia_flashsales08.jpg" alt="product" />
+        <p class="product">REDMI A5 ...</p>
+        <p class="price">₦103,760</p>
+        <p class="old-price">₦154,624</p>
+      </div>
+    </div>
+
+
+   <footer>
+
+    <!-- FOOTER TOP -->
+    <div class="footer-top">
+        <div class="footer-brand">
+            <img src="./assets/jumialogo-removebg-preview.png" alt="">
+        </div>
+
+        <div class="footer-newsletter">
+            <h4>NEW TO JUMIA?</h4>
+            <p>Subscribe to our newsletter to get updates on our latest offers, you can unsubscribe at any time as described in Privacy Policy.</p>
+            <p>To subscribe to our newsletter, you must first read and agree to Jumia's <a href="#">Privacy Policy</a> and <a href="#">Cookie Notice</a></p>
+            <div class="checkbox-row">
+                <input type="checkbox" id="agree">
+                <label for="agree">I agree to Jumia's Privacy and Cookie Policy.</label>
+            </div>
+            <div class="subscribe-row">
+                <input type="email" placeholder="Yhuzzieboy92@gmail.com">
+                <button type="submit">Subscribe</button>
+            </div>
+        </div>
+
+        <div class="footer-app">
+            <h4>
+                <span class="app-icon"><img src="./assets/footer_jumia.png" alt=""></span>
+                DOWNLOAD JUMIA FREE APP
+            </h4>
+            <p>Get access to exclusive offers!</p>
+            <div class="store-links">
+                <a href="#"><img src="./assets/app_store-removebg-preview.png" alt=""></a>
+                <a href="#"><img src="./assets/playstore-removebg-preview.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER MIDDLE -->
+    <div class="footer-middle">
+        <div class="footer-col">
+            <div class="col-section">
+                <h4>NEED HELP?</h4>
+                <ul>
+                    <li><a href="#">Chat with us</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-section">
+                <h4>USEFUL LINKS</h4>
+                <ul>
+                    <li><a href="#">Service Center</a></li>
+                    <li><a href="#">How to shop on Jumia?</a></li>
+                    <li><a href="#">Delivery options and timelines</a></li>
+                    <li><a href="#">How to return a product on Jumia?</a></li>
+                    <li><a href="#">Corporate and bulk purchases</a></li>
+                    <li><a href="#">Report a Product</a></li>
+                    <li><a href="#">Dispute Resolution Policy</a></li>
+                    <li><a href="#">Returns & Refund Timeline</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Pickup Stations</a></li>
+                    <li><a href="#">Jumia Delivery</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <div class="col-section">
+                <h4>ABOUT JUMIA</h4>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Jumia careers</a></li>
+                    <li><a href="#">Corporate Website</a></li>
+                    <li><a href="#">Terms and Conditions</a></a></li>
+                    <li><a href="#">Privacy Notice</a></li>
+                    <li><a href="#">Jumia Payment Information Guidelines</a></li>
+                    <li><a href="#">Cookie Notice</a></li>
+                    <li><a href="#">Official Stores</a></li>
+                    <li><a href="#">Flash Sales</a></li>
+                    <li><a href="#">Black Friday</a></li>
+                </ul>
+            </div>
+            <div class="col-section">
+                <h4>PRIVACY</h4>
+                <ul>
+                    <li><a href="#">Privacy Notice</a></li>
+                    <li><a href="#">Cookie Notice</a></li>
+                    <li><a href="#">Cookie Preferences</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h4>MAKE MONEY WITH JUMIA</h4>
+            <ul>
+                <li><a href="#">Sell on Jumia</a></li>
+                <li><a href="#">Vendor hub</a></li>
+                <li><a href="#">Become a Sales Consultant</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>JUMIA INTERNATIONAL</h4>
+            <div class="countries">
+                <a href="#">Egypt</a>
+                <a href="#">Morocco</a>
+                <a href="#">Ghana</a>
+                <a href="#">Senegal</a>
+                <a href="#">Ivory Coast</a>
+                <a href="#">Uganda</a>
+                <a href="#">Kenya</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER BOTTOM -->
+    <div class="footer-bottom-bg">
+      <div class="footer-bottom">
+        <div class="footer-social">
+            <h4>JOIN US ON</h4>
+            <div class="social-icons">
+                <a href="#"><img src="./assets/facebook_logo.svg" alt=""></a>
+                <a href="#"><img src="./assets/youtube.svg" alt=""></a>
+                <a href="#"><img src="./assets/instagram.svg" alt=""></a>
+                <a href="#"><img src="./assets/x.svg" alt=""></a>
+                <a href="#"><img src="./assets/tiktok.svg" alt=""></a>
+            </div>
+        </div>
+
+        <div class="footer-payment">
+            <h4>PAYMENT METHODS</h4>
+            <div class="payment-icons">
+                <a href="#" class="pay-badge"><img src="./assets/finance_chip.svg" alt=""></a>
+                <a href="#" class="pay-badge"><img src="./assets/mastercard.svg" alt=""></a>
+                <a href="#" class="pay-badge"><img src="./assets/visa.svg" alt=""></a>
+                <a href="#" class="pay-badge"><img src="./assets/mastercard.svg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- FOOTER BRANDS -->
+    <div class="footer-brands">
+        <a href="#">ADIDAS</a>
+        <a href="#">Nike</a>
+        <a href="#">Samsung</a>
+    </div>
+
+    <!-- FOOTER COPYRIGHT -->
+    <div class="footer-copyright">
+        <div class="pay-tag"><img src="./assets/adpay-removebg-preview.png" alt=""></div>
+        <div class="pay-tag"><img src="./assets/addeliver-removebg-preview.png" alt=""></div>
+    </div>
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

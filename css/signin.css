@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.login-box{
+
+    width: 26%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.login-box img{
+    width: 60px;
+    height: auto;
+    padding-top: 50px;
+}
+h2{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 20px;
+}
+.text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #cecece;
+}
+input{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: normal;
+    border-radius: 5px;
+    border: 1px solid #cecece;
+}
+.btn{
+    margin-top: 50px;
+    width: 100%;
+    height: 50px;
+    background-color: #f8982d !important;
+   padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffff;
+    border: none;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+button:hover{
+    background-color: #f8982d;
+}
+.divider {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #999;
+    font-size: 13px;
+    margin-top: 50px;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background-color: #ddd;
+}
+.socials{
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.socials img{
+    width: 40px;
+    height: auto;
+}
+.socials img:hover{
+    transform: scale(1.1);
+}
+.label{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.label p{
+    font-size: 11px;
+    margin-bottom: -7px;
+}
+.label a{
+    font-size: 10px;
+    color: #f8982d;
+    display: inline-block;
+}
+.contact{
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    margin-top: 90px;
+} 
+.jumia{
+    margin-top: -60px;
+}
+.jumia img{
+    width: 100px;
+    height: auto;
+}
+/* iPad (768px - 1024px) */
+@media (max-width: 1024px) {
+    .login-box {
+        width: 50%;
+    }
+}
+
+/* Mobile (max 767px) */
+@media (max-width: 767px) {
+    .login-box {
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .text {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    input {
+        font-size: 14px;
+    }
+
+    button {
+        margin-top: 30px;
+        font-size: 14px;
+    }
+
+    .divider {
+        margin-top: 30px;
+    }
+
+    .contact {
+        margin-top: 50px;
+        font-size: 11px;
+    }
+
+    .jumia {
+        margin-top: -40px;
+    }
+}

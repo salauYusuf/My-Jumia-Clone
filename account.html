@@ -1,0 +1,615 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/account.css" />
+    <link rel="shortcut icon" href="./" type="image/x-icon" />
+    <title>Document</title>
+  </head>
+  <body>
+
+<header>
+  <div class="top">
+        <div class="top-left">
+          <img src="./assets/jumia_star-removebg-preview.png" alt="" />
+          <a href="#">Sell on Jumia</a>
+        </div>
+        <div class="top-right">
+          <img src="./assets/jumbg.png" class="jumia" alt="jumia" />
+          <img src="./assets/adpay-removebg-preview.png" class="pay" alt="" />
+          <img
+            src="./assets/addeliver-removebg-preview.png"
+            class="deliver"
+            alt=""
+          />
+        </div>
+      </div>
+</header>
+
+<!-- nav -->
+
+<div class="nav-bg">
+      <div class="nav-box">
+        <div class="navboot">
+          <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container-fluid p-0">
+              <a class="navbar-brand" href="#">
+                <img src="./assets/jum-removebg-preview.png" alt="logo" />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex mx-3 flex-grow-1" role="search">
+                  <div class="input-group">
+                    <span class="input-group-text bg-white border-end-0">
+                      <img src="./assets/searchlogo.svg" alt="search" />
+                    </span>
+                    <input
+                      class="form-control border-start-0"
+                      type="search"
+                      placeholder="search products, brands and categories"
+                      aria-label="Search"
+                    />
+                  </div>
+                  <button class="btn search-btn ms-2" type="submit">
+                    search
+                  </button>
+                </form>
+
+                <ul class="navbar-nav mb-0 ms-2">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                    >
+                      <img src="./assets/person.svg" class="nav-img" alt="" /> Hi, Salaudeen
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="./account.html"
+                          ><img src="./assets/person.svg" alt="" />My Account</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="./order.html"
+                          ><img src="./assets/inventory.svg" alt="" />Orders</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><img src="./assets/mail.svg" alt="" />Inbox</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><img src="./assets/favorite.svg" alt="" />Wishlist</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><img
+                            src="./assets/confirmation.svg"
+                            alt=""
+                          />voucher</a
+                        >
+                      </li>
+                      <hr class="line my-1" />
+                      <li class="text-center">
+                        <a class="dropdown-item logout-btn" href="./index.html">Logout</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                    >
+                      <img src="./assets/store.svg" class="nav-img" alt="" />
+                      Help
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">Help Center</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Place an order</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Payment options</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Track an order</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Help Center</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Cancel an order</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Returns & Refunds</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Coookie Preferences</a
+                        >
+                      </li>
+                      <hr class="line my-1">
+                      <li>
+                        <a class="dropdown-item live-chat" href="#">
+                          <img
+                            src="./assets/sms.svg"
+                            alt=""
+                          />Live Chat</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item whatsapp" href="#">
+                          <img
+                            src="./assets/whatsapp-color.svg"
+                            alt=""
+                          />
+                          WhatsApp</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./cart.html">
+                      <img src="./assets/home-cart.svg" class="nav-img" alt="" />
+                      cart
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="layout">
+        <aside>
+          <a class="head" href="#">
+            <img src="./assets/person.svg" alt="" />
+            My Jumia Account
+          </a>
+          <a class="side-list" href="#">
+            <img src="./assets/inventory.svg" alt="" />Orders
+          </a>
+          <a class="side-list" href="#">
+            <img src="./assets/mail.svg" alt="" />Inbox
+          </a>
+          <a class="side-list" href="#">
+            <img src="./assets/rate.svg" alt="" />Pending Reviews
+          </a>
+          <a class="side-list" href="#">
+            <img src="./assets/confirmation.svg" alt="" />Voucher
+          </a>
+          <a class="side-list" href="#">
+            <img src="./assets/favorite.svg" alt="" />Wishlist
+          </a>
+          <a class="side-list" href="#">
+            <img src="./assets/store.svg" alt="" />Followed Sellers
+          </a>
+          <a class="side-list" href="#">
+            <img src="./assets/history.svg" alt="" />Recently Viewed
+          </a>
+
+          <hr />
+
+          <a class="side-list-middle" href="#">
+            <img src="" alt="" />Account Management
+          </a>
+          <a class="side-list-middle" href="#">
+            <img src="" alt="" />Payment Settings
+          </a>
+          <a class="side-list-middle" href="#">
+            <img src="" alt="" />Address Book
+          </a>
+          <a class="side-list-middle" href="#">
+            <img src="" alt="" />Newsletter Preferences
+          </a>
+          <a class="side-list-middle" href="#">
+            <img src="" alt="" />Cookies Preferences
+          </a>
+          <a class="side-list-middle" href="#">
+            <img src="" alt="" />Close Account
+          </a>
+
+          <hr />
+
+          <div class="logout-container">
+            <a class="side-list-bottom" href="./index.html"> Logout </a>
+          </div>
+        </aside>
+
+        <section>
+          <div class="box">
+            <header>
+              <h2>Account Overview</h2>
+            </header>
+            <div class="content-grid">
+              <div class="grid child-a">
+                <h4>ACCOUNT DETAILS</h4>
+                <p>Salaudeen Yusuf</p>
+                <p class="email">Yhuzzieboy92@gmail.com</p>
+              </div>
+              <div class="grid child-b">
+                <h4>ADDRESS BOOK</h4>
+                <p>No default shipping address:</p>
+                <p class="address">Default shipping address not available.</p>
+                <div class="add-addy">
+                  <a href="#">Add default address</a>
+                </div>
+              </div>
+              <div class="grid child-c">
+                <h4>JUMIA STORE CREDIT</h4>
+                <p>
+                  <img src="././assets/blue-wallet.svg" alt="" /> Jumia store
+                  credit balance: ₦ 0
+                </p>
+              </div>
+              <div class="grid child-d">
+                <h4>NEWSLETTER PREFERENCES</h4>
+                <p>
+                  Manage your email communications to stay updated with the
+                  latest news and offers.
+                </p>
+                <div class="Newsletter">
+                  <a href="#">Edit Newsletter preferences</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="top-items">
+        <div class="top-header">
+          <h2>Top selling items</h2>
+          <a href="#">See All ›</a>
+        </div>
+
+        <div class="property-cards">
+
+    <div class="property-card">
+        <div class="card-img">
+            <span class="discount">-5%</span>
+            <img src="./assets/jumia_wallet1.jpg" alt="">
+        </div>
+        <div class="card-info">
+            <p class="product-name">Cerave Acne Control Clea...</p>
+            <p class="new-price">₦ 3,795</p>
+            <p class="old-price">₦ 3,995</p>
+        </div>
+    </div>
+
+    <div class="property-card">
+        <div class="card-img">
+            <img src="./assets/jumia_wallet2.jpg" alt="">
+        </div>
+        <div class="card-info">
+            <p class="product-name">Macbook PRO Laptop A1278 13..</p>
+            <p class="new-price">₦ 193,235</p>
+        </div>
+    </div>
+
+    <div class="property-card">
+        <div class="card-img">
+            <span class="discount">-34%</span>
+            <img src="./assets/jumia_wallet_nivea1.jpg" alt="">
+        </div>
+        <div class="card-info">
+            <p class="product-name">NIVEA MEN Deep Body Lotion ...</p>
+            <p class="new-price">₦ 4,550</p>
+            <p class="old-price">₦ 6,090</p>
+        </div>
+    </div>
+
+    <div class="property-card">
+        <div class="card-img">
+            <span class="discount">-76%</span>
+            <img src="./assets/jumia_wallet3.jpg" alt="">
+        </div>
+        <div class="card-info">
+            <p class="product-name">Elegant Toothbrush Holder And...</p>
+            <p class="new-price">₦ 2,199</p>
+            <p class="old-price">₦ 9,000</p>
+        </div>
+    </div>
+
+    <div class="property-card">
+        <div class="card-img">
+            <span class="discount">-24%</span>
+            <img src="./assets/jumia_wallet4.jpg" alt="">
+        </div>
+        <div class="card-info">
+            <p class="product-name">GAULIN Trendy Versatile Shoes ...</p>
+            <p class="new-price">₦ 12,495</p>
+            <p class="old-price">₦ 16,391</p>
+        </div>
+    </div>
+
+    <div class="property-card">
+        <div class="card-img">
+            <span class="discount">-24%</span>
+            <img src="./assets/jumia_wallet5.jpg" alt="">
+        </div>
+        <div class="card-info">
+            <p class="product-name">Cotton Club AUD DE PERFUME</p>
+            <p class="new-price">₦ 2,270</p>
+            <p class="old-price">₦ 2,999</p>
+        </div>
+    </div>
+
+    <div class="property-card">
+        <div class="card-img">
+            <span class="discount">-53%</span>
+            <img src="./assets/jumia_wallet6.jpg" alt="">
+        </div>
+        <div class="card-info">
+            <p class="product-name">9 in 1 Push Up Rack Board Fitness ..</p>
+            <p class="new-price">₦ 8,940</p>
+            <p class="old-price">₦ 19,057</p>
+        </div>
+    </div>
+
+    <div class="property-card">
+        <div class="card-img">
+            <span class="discount">-9%</span>
+            <img src="./assets/jumia_wallet7.jpg" alt="">
+        </div>
+        <div class="card-info">
+            <p class="product-name">Boscon Auto Ignition Table Top ...</p>
+            <p class="new-price">₦ 17,294</p>
+            <p class="old-price">₦ 19,023</p>
+        </div>
+    </div>
+
+    <div class="property-card">
+        <div class="card-img">
+            <span class="discount">-68%</span>
+            <img src="./assets/jumia_wallet10.jpg" alt="">
+        </div>
+        <div class="card-info">
+            <p class="product-name">Biore UV Aqua Rich Watery Sun</p>
+            <p class="new-price">₦ 2,899</p>
+            <p class="old-price">₦ 9,000</p>
+        </div>
+    </div>
+
+    <div class="property-card">
+        <div class="card-img">
+            <span class="discount">-2%</span>
+            <img src="./assets/jumia_wallet9.jpg" alt="">
+        </div>
+        <div class="card-info">
+            <p class="product-name">itel PowerPulse B1481 27000m ...</p>
+            <p class="new-price">₦ 24,000</p>
+            <p class="old-price">₦ 24,500</p>
+        </div>
+    </div>
+
+    <div class="property-card">
+        <div class="card-img">
+            <span class="discount">-47%</span>
+            <img src="./assets/jumia_wallet8.jpg" alt="">
+        </div>
+        <div class="card-info">
+            <p class="product-name">Inspire Perfume Fragtance INSP...</p>
+            <p class="new-price">₦ 3,999</p>
+            <p class="old-price">₦ 7,000</p>
+        </div>
+    </div>
+
+    <div class="property-card">
+        <div class="card-img">
+            <span class="discount">-47%</span>
+            <img src="./assets/jumia_wallet12.jpg" alt="">
+        </div>
+        <div class="card-info">
+            <p class="product-name">Mateamoda Women Shoes San ...</p>
+            <p class="new-price">₦ 10,082</p>
+            <p class="old-price">₦ 10,949</p>
+        </div>
+    </div>
+
+    <div class="property-card">
+        <div class="card-img">
+            <span class="discount">-6%</span>
+            <img src="./assets/jumia_wallet11.jpg" alt="">
+        </div>
+        <div class="card-info">
+            <p class="product-name">itel smart Watch Fit o20 2.04" ...</p>
+            <p class="new-price">₦ 16,032</p>
+            <p class="old-price">₦ 17,000</p>
+        </div>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+
+    <!-- FOOTER TOP -->
+    <div class="footer-top">
+        <div class="footer-brand">
+            <img src="./assets/jumialogo-removebg-preview.png" alt="">
+        </div>
+
+        <div class="footer-newsletter">
+            <h4>NEW TO JUMIA?</h4>
+            <p>Subscribe to our newsletter to get updates on our latest offers, you can unsubscribe at any time as described in Privacy Policy.</p>
+            <p>To subscribe to our newsletter, you must first read and agree to Jumia's <a href="#">Privacy Policy</a> and <a href="#">Cookie Notice</a></p>
+            <div class="checkbox-row">
+                <input type="checkbox" id="agree">
+                <label for="agree">I agree to Jumia's Privacy and Cookie Policy.</label>
+            </div>
+            <div class="subscribe-row">
+                <input type="email" placeholder="Yhuzzieboy92@gmail.com">
+                <button type="submit">Subscribe</button>
+            </div>
+        </div>
+
+        <div class="footer-app">
+            <h4>
+                <span class="app-icon"><img src="./assets/footer_jumia.png" alt=""></span>
+                DOWNLOAD JUMIA FREE APP
+            </h4>
+            <p>Get access to exclusive offers!</p>
+            <div class="store-links">
+                <a href="#"><img src="./assets/app_store-removebg-preview.png" alt=""></a>
+                <a href="#"><img src="./assets/playstore-removebg-preview.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER MIDDLE -->
+    <div class="footer-middle">
+        <div class="footer-col">
+            <div class="col-section">
+                <h4>NEED HELP?</h4>
+                <ul>
+                    <li><a href="#">Chat with us</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-section">
+                <h4>USEFUL LINKS</h4>
+                <ul>
+                    <li><a href="#">Service Center</a></li>
+                    <li><a href="#">How to shop on Jumia?</a></li>
+                    <li><a href="#">Delivery options and timelines</a></li>
+                    <li><a href="#">How to return a product on Jumia?</a></li>
+                    <li><a href="#">Corporate and bulk purchases</a></li>
+                    <li><a href="#">Report a Product</a></li>
+                    <li><a href="#">Dispute Resolution Policy</a></li>
+                    <li><a href="#">Returns & Refund Timeline</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Pickup Stations</a></li>
+                    <li><a href="#">Jumia Delivery</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <div class="col-section">
+                <h4>ABOUT JUMIA</h4>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Jumia careers</a></li>
+                    <li><a href="#">Corporate Website</a></li>
+                    <li><a href="#">Terms and Conditions</a></a></li>
+                    <li><a href="#">Privacy Notice</a></li>
+                    <li><a href="#">Jumia Payment Information Guidelines</a></li>
+                    <li><a href="#">Cookie Notice</a></li>
+                    <li><a href="#">Official Stores</a></li>
+                    <li><a href="#">Flash Sales</a></li>
+                    <li><a href="#">Black Friday</a></li>
+                </ul>
+            </div>
+            <div class="col-section">
+                <h4>PRIVACY</h4>
+                <ul>
+                    <li><a href="#">Privacy Notice</a></li>
+                    <li><a href="#">Cookie Notice</a></li>
+                    <li><a href="#">Cookie Preferences</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h4>MAKE MONEY WITH JUMIA</h4>
+            <ul>
+                <li><a href="#">Sell on Jumia</a></li>
+                <li><a href="#">Vendor hub</a></li>
+                <li><a href="#">Become a Sales Consultant</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>JUMIA INTERNATIONAL</h4>
+            <div class="countries">
+                <a href="#">Egypt</a>
+                <a href="#">Morocco</a>
+                <a href="#">Ghana</a>
+                <a href="#">Senegal</a>
+                <a href="#">Ivory Coast</a>
+                <a href="#">Uganda</a>
+                <a href="#">Kenya</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER BOTTOM -->
+    <div class="footer-bottom-bg">
+      <div class="footer-bottom">
+        <div class="footer-social">
+            <h4>JOIN US ON</h4>
+            <div class="social-icons">
+                <a href="#"><img src="./assets/facebook_logo.svg" alt=""></a>
+                <a href="#"><img src="./assets/youtube.svg" alt=""></a>
+                <a href="#"><img src="./assets/instagram.svg" alt=""></a>
+                <a href="#"><img src="./assets/x.svg" alt=""></a>
+                <a href="#"><img src="./assets/tiktok.svg" alt=""></a>
+            </div>
+        </div>
+
+        <div class="footer-payment">
+            <h4>PAYMENT METHODS</h4>
+            <div class="payment-icons">
+                <a href="#" class="pay-badge"><img src="./assets/finance_chip.svg" alt=""></a>
+                <a href="#" class="pay-badge"><img src="./assets/mastercard.svg" alt=""></a>
+                <a href="#" class="pay-badge"><img src="./assets/visa.svg" alt=""></a>
+                <a href="#" class="pay-badge"><img src="./assets/mastercard.svg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- FOOTER BRANDS -->
+    <div class="footer-brands">
+        <a href="#">ADIDAS</a>
+        <a href="#">Nike</a>
+        <a href="#">Samsung</a>
+    </div>
+
+    <!-- FOOTER COPYRIGHT -->
+    <div class="footer-copyright">
+        <div class="pay-tag"><img src="./assets/adpay-removebg-preview.png" alt=""></div>
+        <div class="pay-tag"><img src="./assets/addeliver-removebg-preview.png" alt=""></div>
+    </div>
+
+</footer>
+</body>
+</html>
